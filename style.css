@@ -1,0 +1,134 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    display: flex;
+    flex-flow: row wrap;
+    
+    margin: 0px;
+    height: 100vh;
+    background-color: rgb(9,19,30);
+}
+
+/* Services*/
+
+section.left {
+    margin: 0px;
+    padding: 2vw;
+    background-color: rgb(178,144,102);
+
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+}
+
+div.option {
+    margin: 2vh 0; /* top and bottom margin */
+
+    color: white;
+    font-size: 1rem;
+    line-height: 1rem;
+}
+
+h4.option-title {
+    color: rgb(9,19,30);
+}
+
+p.option-price {
+    margin-top: -0.5em;
+    font-size: 1.4rem;
+}
+
+p.option-link {
+    margin-top: -0.3em;
+    font-size: 0.8em;
+}
+
+
+
+/* About Us */
+
+section.mid {
+    background-color: rgb(9,19,30);
+    color: white;
+    width: 30vw;
+    padding: 0 5vw; /* left and right padding */
+    font-size: 1rem;
+    line-height: 1.5rem;
+
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+}
+
+section.mid h2 {
+    font-size: 2.5rem;
+}
+
+section.mid h2#text-satisfied {
+    color: rgb(178,144,102);
+    margin-top: -0.3em;
+}
+
+div.posted-time {
+    display: flex;
+    flex-flow: row wrap;
+    max-width: 25vw;
+    justify-content: space-between;
+
+    font-size: 1rem;
+    text-align: left;
+}
+
+div.time h4 {
+    color: rgb(178,144,102);
+}
+
+div.time p {
+    margin-top: -0.4em;
+}
+
+/* Haircut Picture */
+
+section.right {
+    margin: 0px;
+    background-color: rgb(9,19,30);
+
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+}
+
+section.right div.picture {
+    border-radius: 40px 100px 40px 0px;
+    height: 50vh;
+    width: 40vh;
+    overflow: hidden;
+    position: absolute;
+}
+
+section.right img {
+    object-fit: cover;
+    height: 50vh;
+    width: auto;
+}
+
+section.right div.brad-shadow {
+    background-color: rgb(178,144,102);
+    border-radius: 0 40px 40px 0px;
+
+    z-index: -1;
+    position: absolute;
+    transform: translate(20px, 40px);
+}
+
+section.right div.logo {
+    background-color: rgb(178,144,102);
+    height: 90px;
+    width: 90px;
+    border-radius: 40%;
+
+    position: absolute;
+    transform: translate(-25px, 171.5px);
+}
+
+section.right 
