@@ -121,14 +121,26 @@ section.right div.brad-shadow {
     transform: translate(20px, 40px);
 }
 
+section.right div.brad-shadow p { /* Address */
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 0.6em;
+    margin-left: 3.5rem;
+}
+
 section.right div.logo {
     background-color: rgb(178,144,102);
-    height: 90px;
-    width: 90px;
+    height: 80px;
+    width: 80px;
     border-radius: 40%;
 
     position: absolute;
-    transform: translate(-25px, 171.5px);
+    transform: translate(-25px, 177px);
+    justify-content: center;
 }
 
-section.right 
+section.right div.logo img {
+    position: absolute;
+    height: 80px;
+    transform: translate(2px, 2px);
+}
