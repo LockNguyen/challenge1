@@ -100,15 +100,16 @@ section.right {
 
 section.right div.picture {
     border-radius: 40px 100px 40px 0px;
-    height: 50vh;
-    width: 40vh;
-    overflow: hidden;
+    height: 65vh;
+    width: 50vh;
+
     position: absolute;
+    overflow: hidden;
 }
 
 section.right img {
     object-fit: cover;
-    height: 50vh;
+    height: 65vh;
     width: auto;
 }
 
@@ -135,12 +136,12 @@ section.right div.logo {
     border-radius: 40%;
 
     position: absolute;
-    transform: translate(-25px, 177px);
+    transform: translate(-25px, 239.5px);
     justify-content: center;
 }
 
 section.right div.logo img {
     position: absolute;
     height: 80px;
-    transform: translate(2px, 2px);
+    transform: translate(2px, 1px);
 }
